@@ -1,7 +1,9 @@
 # Javascript Point of Sales : Overview
 A Dynamically written Point of Sale System built with DRY principle in mind.
 <br>
-## How does it work?
+<br>
+
+## ⚒ How does it work?
 
 1. The program will instruct the user to choose the category
 <br>
@@ -43,8 +45,8 @@ cd <project folder>
  node main
  ```
 4. Press tab then hit enter.
-
 <br>
+
 ## 📝 Other noteworthy projects
 
 <strong>Dental Care Appointment System</strong><br>
