@@ -6,28 +6,51 @@ A Dynamically written Point of Sale System built with DRY principle in mind.
 ## ⚒ How does it work?
 
 1. The program will instruct the user to choose the category
+
 <br>
+
 <img src='https://github.com/robin-dc/Javascript-POS-System/blob/main/images/pos_Step1.png'>
+
 <br>
+
 2. Inside the chosen category, the user must pick their choice and provide the quantity.
+
 <br>
+
 <img src='https://github.com/robin-dc/Javascript-POS-System/blob/main/images/pos_Step2.png'>
+
 <br>
+
 3. The program will prompt if you want to order again or proceed with the payment.
+
 <br>
+
 <img src='https://github.com/robin-dc/Javascript-POS-System/blob/main/images/pos_Step3.png'>
+
 <br>
+
 4. The program will then loop until you choose to proceed with the payment.
+
 <br>
+
 <img src='https://github.com/robin-dc/Javascript-POS-System/blob/main/images/pos_Step4.png'>
+
 <br>
+
 5. The program will ask for the payment and will provide a receipt with a number for waiting purposes.
+
 <br>
+
 <img src='https://github.com/robin-dc/Javascript-POS-System/blob/main/images/pos_Step5.png'>
+
 <br>
+
 6. With its dynamically written code, you can easily add more categories or food options and the program will still run seamlessly.
- <br>
+
+<br>
+
 <img src='https://github.com/robin-dc/Javascript-POS-System/blob/main/images/pos_Step6.png'>
+
 <br>
 
 ## 🚀 To run this project on your local machine.
