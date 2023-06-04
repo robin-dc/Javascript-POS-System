@@ -46,7 +46,7 @@ let total = 0;
 let receipt = [];
 let generatedNumbers = [];
 
-
+// =================================== RANDOM NUMBER GENERATOR FOR RECEIPT ==========================================
 const randomNumberGenerator = () => {
     const randomNumber = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
 
@@ -58,6 +58,7 @@ const randomNumberGenerator = () => {
     return randomNumber;
 }
 
+// ========================================= DYNAMIC MENU LIST GENERATOR ==========================================
 const menuListGenerator = (chosen) => {
     let menu = ""
     for(const key of categoryKeys) {
@@ -81,6 +82,7 @@ const menuListGenerator = (chosen) => {
     }
 }
 
+// ========================================= DYNAMIC CATEGORY LIST GENERATOR ==========================================
 const categoryListGenerator = () => {
     let category = ""
 
@@ -91,6 +93,7 @@ const categoryListGenerator = () => {
     console.log(category)
 }
 
+// ================================================ RECEIPT GENERATOR ================================================
 const receiptGenerator = (change, payment) => {
     let text = "";
 
@@ -113,6 +116,8 @@ const receiptGenerator = (change, payment) => {
     console.log("======================================================");
 
 }
+
+// ================================================ CATEGORY INPUT ================================================
 const categoryMethod = () =>{
     console.log("");
     console.log("====================== WELCOME TO MC DONALDS ======================");
@@ -135,6 +140,7 @@ const categoryMethod = () =>{
     }
 }
 
+// ================================================ CHOSEN FOOD INPUT ================================================
 const chosenMethod = (category) => {
     console.log("");
     console.log(`====================== ${category} CATEGORY ======================`);
@@ -154,6 +160,8 @@ const chosenMethod = (category) => {
         }
     }
 }
+
+// ================================================ QUANTITY INPUT ================================================
 const quantityMethod = (choice) => {
 
     while(true){
@@ -180,6 +188,7 @@ const quantityMethod = (choice) => {
     }
 }
 
+// ================================================ PAYMENT INPUT ================================================
 const paymentMethod = (total) =>{
     console.log("");
     console.log("====================== PAYMENT ======================");
@@ -204,13 +213,14 @@ const paymentMethod = (total) =>{
     }
 }
 
+// ========================================== SYSTEM PROCESS ARRANGEMENT ================================================
 const process = () => {
     const categoryChosen = categoryMethod()
     const chosenFood = chosenMethod(categoryChosen)
     const quantity = quantityMethod(chosenFood)
 }
 
-
+// ================================================ REORDER INPUT ================================================
 function reOrderMethod() {
     console.log("");
     console.log("======================================================");
